@@ -26,9 +26,9 @@
     reverbEnabled: true,
     reverbDelay: 0.045,
     reverbFeedback: 0.35,
-    reverbWet: 0.18,
+    reverbWet: 0.6,
     keepAlive: true,
-    keepAliveGain: 0.00035,
+    keepAliveGain: 0.003,
     senderRefreshMs: 500
   };
   const MSG_CFG = 'MIC_MAXIMIZER_CONFIG';
