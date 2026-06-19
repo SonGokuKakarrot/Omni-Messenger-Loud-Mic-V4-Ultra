@@ -25,7 +25,7 @@
     const script = document.createElement('script');
     script.src = injectorUrl;
     script.async = false;
-    script.dataset.omniInstagramLord = 'injector';
+    script.dataset.omniMessengerLord = 'injector';
     script.onload = () => {
       document.documentElement.dataset.micMaxLoaderInjected = '1';
       window.__micMaxLoaderBusy = false;
