@@ -24,6 +24,7 @@ const DEFAULTS = {
   keepAlive: true,
   keepAliveGain: 0.0012,
   senderRefreshMs: 250
+  hybridAEC: true
 };
 const PRESETS = {
   royal: {
