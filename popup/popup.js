@@ -1,6 +1,7 @@
 const EXT = globalThis.browser ?? globalThis.chrome;
 const HAS_PROMISE_API = typeof globalThis.browser !== 'undefined' && EXT === globalThis.browser;
 const DEFAULTS = {
+const DEFAULTS = {
   profileVersion: 6,
   enabled: true,
   gainDb: 106.0206,
@@ -23,8 +24,8 @@ const DEFAULTS = {
   reverbWet: 0.18,
   keepAlive: true,
   keepAliveGain: 0.0012,
-  senderRefreshMs: 250
-  hybridAEC: true
+  senderRefreshMs: 450,
+  hybridAEC: true         
 };
 const PRESETS = {
   royal: {
