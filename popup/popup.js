@@ -23,8 +23,7 @@ const DEFAULTS = {
   reverbWet: 0.18,
   keepAlive: true,
   keepAliveGain: 0.0012,
-  senderRefreshMs: 450,
-  hybridAEC: true         
+  senderRefreshMs: 250,
 };
 const PRESETS = {
   royal: {
@@ -50,7 +49,7 @@ const PRESETS = {
     reverbWet: 0.08,
     keepAlive: true,
     keepAliveGain: 0.0002,
-    senderRefreshMs: 750
+    senderRefreshMs: 250
   },
   lord: {
     profileVersion: 6,
